@@ -33,8 +33,8 @@ Para la realización de la API, se hizo uso de las siguientes tecnologías:
 ---
 Para la creación de la base de datos de la API se empleo el siguiente modelo entidad relación:
 
-![modelo entidad relacion eps!](./src/img/modeloER.jpeg)
-![modelo entidad relacion eps!](./src/img/modeloRelacional.jpeg)
+![modelo entidad relacion eps!](./src/img/Modelo%20ER.jpeg)
+![modelo entidad relacion eps!](./src/img/Modelo%20Relacional.jpeg)
 
 ## 4. Pasos para la instalación y uso de la API
 ---
@@ -49,8 +49,7 @@ npm --version
 ```
 4. Clonar este repositorio 
 ```sh
-git clone https://github.com/su usuario/basic_api_rest.git
-cd basic_api_rest
+https://github.com/Jordango89/Proyecto-API-RES
 ```
 5. Inicializar un proyecto con `npm`
 ```sh
@@ -181,42 +180,42 @@ Eliminar paciente
 > :warning: **Aviso**: para poder crear registros de doctores, se debe tener registros en la tabla se especialidades .
 
 Obtener todos los doctores
-![Obtener todos los doctores!](./src/img/doctores-img/obtener%20doctores.jpeg)<br>
+![Obtener todos los doctores!](./src/img/doctores-img/Traaer%20Doctores.jpeg)<br>
 
 Obtener todos los doctores con citas programadas
-![Obtener todos los doctores con citas programadas!](./src/img/doctores-img/obtener%20doctores%20con%20citas.jpeg)
+![Obtener todos los doctores con citas programadas!](./src/img/doctores-img/Traer%20Doctor%20con%20Cita.jpeg)
 
 Obtener el doctor por id
-![Obtener el doctor por id!](./src/img/doctores-img/obtenter%20doctores%20por%20id.jpeg)
+![Obtener el doctor por id!](./src/img/doctores-img/Traer%20Doctor%20con%20Id.jpeg)
 
 Obtener el doctores con cita programada por id
-![Obtener el doctores con cita programada por id!](./src/img/doctores-img/obtener%20doctores%20con%20citas%20por%20id.jpeg)
+![Obtener el doctores con cita programada por id!](./src/img/doctores-img/Traer%20Doctor%20con%20Id%20y%20Cita.jpeg)
 
 Crear doctores
-![Crear doctores!](./src/img/doctores-img/crear%20doctores.jpeg)
+![Crear doctores!](./src/img/doctores-img/Crear%20Doctor.jpeg)
 
 Actualizar doctores
-![Actualizar doctores!](./src/img/doctores-img/actualizar%20doctores.jpeg)
+![Actualizar doctores!](./src/img/doctores-img/Actualizar%20Doctor.jpeg)
 
 Eliminar doctor
-![Eliminar doctor!](./src/img/doctores-img/eliminar%20doctores.jpeg)
+![Eliminar doctor!](./src/img/doctores-img/Eliminar%20Doctor.jpeg)
 
 ### Pruebas para citas
 
 Obtener todas las citas
-![Obtener todas las citas!](./src/img/citas.img/obtener-citas.jpeg)
+![Obtener todas las citas!](./src/img/citas-img/Traer%20Citas.jpeg)
 
 Obtener la cita por id
-![Obtener la cita por id!](./src/img/citas.img/obtener-citas-params-query.jpeg)
+![Obtener la cita por id!](./src/img/citas-img/Traer%20Cita%20por%20Id.jpeg)
 
 Crear citas
-![Crear citas!](./src/img/citas.img/crear-citas.jpeg)
+![Crear citas!](./src/img/citas-img/Crear%20Cita.jpeg)
 
 Actualizar cita
-![Actualizar cita!](./src/img/citas.img/actualizar-citas.jpeg)
+![Actualizar cita!](./src/img/citas-img/Actualizar%20Cita.jpeg)
 
 Eliminar cita
-![Eliminar cita!](./src/img/citas.img/delete-citas.jpeg)
+![Eliminar cita!](./src/img/citas-img/Eliminar%20Cita.jpeg)
 
 ### Pruebas para especialidades
 
@@ -255,9 +254,9 @@ Eliminar telefono
 
 # 7. Desarrolladores
 ---
-Este proyecto se desarrolló en colaboración de:
+Este proyecto se desarrolló con colaboración de:
 <br>
 >:saxophone: María Alejandra Cruz 
->:whale2: Jorge Daniel Gómez 
 >:smile_cat: Johan Sebastián Gónzalez 
+>:whale2: Jorge Daniel Gómez
 ---
