@@ -90,11 +90,11 @@ npx tsc --init
 
 ![Datos Conexion!](./src/img/Datos%20Conexion.jpeg)
 
-```
 12. Ir a la terminal de MySQL o al Workbench y ejecutar el siguiente query:
 ```sh
 create database eps;
 ```
+
 13. Iniciar el servidor
 ```sh
 npm run dev
