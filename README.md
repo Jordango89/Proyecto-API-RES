@@ -1,4 +1,4 @@
-# Proyecto API REST Módulo 6
+# Proyecto API REST con NodeJS. Módulo 6
 ---
 ## Topics :memo:
 
@@ -6,8 +6,8 @@ Este repositorio contiene los siguientes puntos:
 
 1. Contexto de la API
 2. Tecnologías empleadas.
-3. Pasos para la instalación y uso de la API.
-4. Estructuración de la base de datos.
+3. Estructuración de la base de datos.
+4. Pasos para la instalación y uso de la API.
 5. EndPoints de la API.
 6. Pruebas de la API
 7. Desarrolladores.
@@ -74,7 +74,7 @@ npm i @types/body-parser @types/cors @types/dotenv @types/express @types/mysql @
 ```sh
 npx tsc --init
 ```
-8. Configura las opciones del compilador de TypeScript en tu archivo `tsconfig.json`:
+10. Configura las opciones del compilador de TypeScript en tu archivo `tsconfig.json`:
 ```json
 "compilerOptions": {
     "target": "es6",   
@@ -86,11 +86,16 @@ npx tsc --init
     "emitDecoratorMetadata": true,
 }
 ```
-7. Ir a la terminal de MySQL o al Workbench y ejecutar el siguiente query:
+11. Dentro de la carpeta del repositorio clonado, crear un archivo '.env' con las siguientes variables:
+
+![Datos Conexion!](./src/img/Datos%20Conexion.jpeg)
+
+```
+12. Ir a la terminal de MySQL o al Workbench y ejecutar el siguiente query:
 ```sh
 create database eps;
 ```
-8. Iniciar el servidor
+13. Iniciar el servidor
 ```sh
 npm run dev
 ```
@@ -258,5 +263,4 @@ Este proyecto se desarrolló con colaboración de:
 <br>
 >:saxophone: María Alejandra Cruz 
 >:smile_cat: Johan Sebastián Gónzalez 
->:whale2: Jorge Daniel Gómez
 ---
